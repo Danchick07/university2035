@@ -1,0 +1,1 @@
+import randomcomp_num = random.randint(1,10)while True:    user_num=int(input('Угадай какое число я загадал!!!'))    if comp_num == user_num :        print('Красавчик, ты угадал!')        break    elif comp_num-user_num == 1 or comp_num-user_num == -1:        print('Почти угадал, еще чуть чуть!')    else :        print('Ты лошок, повезет в следующий раз!!')
